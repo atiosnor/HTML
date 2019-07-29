@@ -8,9 +8,11 @@ body {
     font-size: 20px;
     list-style-type: none;
 }
+
 .menu a:hover {
-    color:orange;
+    color: orange;
 }
+
 h1 {
     text-align: center;
 }
@@ -42,7 +44,7 @@ a {
     text-align: left;
 }
 
-.style-product-list {
+.main-table-product {
     color: #121948;
     font-size: 17px;
     font-weight: 500;
@@ -62,23 +64,7 @@ a {
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
-    background: #ffffff !important;
-    outline: none;
-    height: 24px;
-    width: 120px;
-    color: #cccccc;
-    font-size: 15px;
-    font-family: Tahoma;
-    text-transform: capitalize;
-
-}
-
-.form-contacts-email {
-    border: 1px solid #cccccc;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    background: white !important;
+    background: #ffffff;
     outline: none;
     height: 24px;
     width: 120px;
@@ -87,31 +73,80 @@ a {
     font-family: Tahoma;
     text-transform: capitalize;
 }
+
+.form-contacts-name:focus {
+    color: green;
+    background: #dddbcc;
+}
+
+.form-contacts-email {
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    background: white;
+    outline: none;
+    height: 24px;
+    width: 120px;
+    color: black;
+    font-size: 15px;
+    font-family: Tahoma;
+    text-transform: capitalize;
+}
+
 .form-contacts-email:focus {
-    background-color: yellow;
+    color: green;
+    background: #dddbcc;
 }
 
 .form-contacts-theme {
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
-    background: #ffffff !important;
+    background: #ffffff;
     outline: none;
     height: 24px;
     width: 120px;
-    color: #cccccc;
-    font-size: 20px;
+    color: black;
+    font-size: 15px;
     font-family: Tahoma;
     text-transform: capitalize;
+}
+
+.form-contacts-theme:focus {
+    color: green;
+    background: #dddbcc;
+}
+
+.form-contacts {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    background: #ffffff;
+    outline: none;
+    height: 50px;
+    width: 200px;
+    color: black;
+    font-size: 15px;
+    font-family: Tahoma;
+    text-transform: capitalize;
+}
+
+.form-contacts:focus {
+    color: green;
+    background: #dddbcc;
 }
 
 .img-product1 {
     height: 500px;
     border-style: solid;
-    border-color: white;
+    border-color: black;
     border-width: 2px;
-
 }
+
+.img-product1:hover {
+    border:none;
+    }
 
 .style-footer {
     text-align: center;
