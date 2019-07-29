@@ -62,7 +62,6 @@ a {
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
-    -khtml-border-radius: 3px;
     background: #ffffff !important;
     outline: none;
     height: 24px;
@@ -79,7 +78,6 @@ a {
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
-    -khtml-border-radius: 3px;
     background: white !important;
     outline: none;
     height: 24px;
@@ -94,11 +92,9 @@ a {
 }
 
 .form-contacts-theme {
-    border: 1px solid #cccccc;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
-    -khtml-border-radius: 3px;
     background: #ffffff !important;
     outline: none;
     height: 24px;
