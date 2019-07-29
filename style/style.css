@@ -30,9 +30,10 @@ a {
 }
 
 .style-p-k {
-    color: #707070;
+    color: black;
     font-size: 14px;
-    font-style: italic;
+    font-family: "Times New Roman";
+    font-style: inherit;
     line-height: 16px;
 }
 
@@ -137,17 +138,39 @@ a {
     background: #dddbcc;
 }
 
-.img-product1 {
+.img-product {
     height: 500px;
     border-style: solid;
     border-color: black;
     border-width: 2px;
 }
 
-.img-product1:hover {
-    border:none;
-    }
+.img-product:hover {
+    border-width: 2px;
+    border-color: transparent;
+}
 
 .style-footer {
     text-align: center;
+}
+
+.span-p {
+    color: red;
+    font-size: 150%;
+    font-family: Serif;
+}
+
+.twink-table-product {
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+.twink-table-product td {
+    border: 1px solid #000000;
+}
+
+.table-td {
+    height: 50px;
 }
