@@ -151,7 +151,15 @@ a {
 }
 
 .style-footer {
-    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.style-footer-div {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    border-top: 3px solid red;
 }
 
 .span-p {
@@ -173,4 +181,12 @@ a {
 
 .table-td {
     height: 50px;
+}
+
+.header {
+    border-bottom: 6px solid red;
+}
+
+.submit {
+
 }
