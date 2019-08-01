@@ -1,12 +1,43 @@
 body {
     color: black;
-    background-color: white;
+    background-image: url("b2.png");
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
 }
 
 .menu li {
     font-style: italic;
-    font-size: 20px;
+    font-size: 30px;
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    background-color: red;
+    text-align: center;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+}
+
+.menu ul {
+    display: none;
     list-style-type: none;
+    width: 200px;
+    box-sizing: border-box;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+}
+
+.menu li:hover ul {
+    display: block;
+    height: 50px;
+    line-height: 30px;
+}
+
+.menu a {
+    color: white;
 }
 
 .menu a:hover {
@@ -154,12 +185,20 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    display: flex;
+
 }
+
 .style-footer-div {
     align-items: center;
     display: flex;
-    justify-content: space-around;
-    border-top: 3px solid red;
+    border-top: 6px solid red;
+    height: 50px;
+    background-color: red;
+    justify-content: flex-end;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 25px;
 }
 
 .span-p {
@@ -185,8 +224,66 @@ a {
 
 .header {
     border-bottom: 6px solid red;
+    background-color: white;
 }
 
-.submit {
+.buy {
+    outline: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: white;
+    background: red;
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    transition: .3s;
 
+}
+.buy:hover {
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(46,229,157,.4);
+    color: white;
+    transform: translateY(-7px);
+}
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 200px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.product-float {
+    float: left;
+    margin-right: 30px;
+}
+.catalog-main {
+    display: flex;
+    justify-content: space-around;
+}
+.map {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 20px;
 }
